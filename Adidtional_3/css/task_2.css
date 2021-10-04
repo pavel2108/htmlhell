@@ -1,0 +1,9 @@
+div  {
+    box-sizing: border-box;
+    width: 470px;    
+    padding: 20px 10px 20px 10px;    
+}
+
+div img {
+    width: 100%;
+}

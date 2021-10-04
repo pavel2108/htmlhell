@@ -1,0 +1,23 @@
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 2px solid #0066FF;
+    border-radius: 20px 5px;   
+    text-align: center;
+    background-color: #33ADFF;
+  }
+  ul li { display: inline; }
+  
+  ul a {
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    width: 120px;
+  }
+  ul a:hover {
+    border-radius: 20px 5px;
+    background-color: #0066FF;
+  }
