@@ -1,0 +1,50 @@
+  menu {        
+    width: 1200px; 
+    padding: 0;  
+    box-sizing: border-box;            
+  }
+
+ menu ul {
+    margin: 0;    
+    padding: 0px 315px;
+    width: 1200px;
+    list-style-type: none;    
+    text-align: center;  
+    box-sizing: border-box;      
+    border: 2px solid #0066FF;    
+  }
+  ul li {   
+    display: inline;          
+}
+
+ul a {
+    font-size: 14px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    font-style: italic;
+    text-transform: uppercase;
+    text-decoration: none;
+    line-height: 1.714;
+}
+
+ul a:hover {   
+    color: rgb(3, 169, 244);
+  }
+
+
+main {    
+    padding: 0px 150px;    
+    width: 1200px;    
+    border: 2px solid #0066FF;
+    box-sizing: border-box;    
+    text-align: justify;
+}  
+ 
+   div  {
+    box-sizing: border-box;
+    width: 420px;           
+    display: inline-block; 
+    margin: auto;       
+}  
+
+  
