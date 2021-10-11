@@ -12,5 +12,31 @@ main div  {
 }
 
 div img {
-    width: 100%;    
+  width: 450px;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 25px;
 }
+
+.chapter {
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    margin-bottom: 25px;  
+  }
+  
+  h3 {
+    font-size: 30px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    margin-bottom: 35px;
+  }
+  
+  .text {
+    font-size: 14px;
+    font-family: "Playfair Display";
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+    text-align: left;
+  }
