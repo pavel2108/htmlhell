@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+  .container {
+    max-width: 480px;
+    margin: auto;
+    padding: 10px;
+  }
+  
+  .list {
+    border: 2px solid #212121;
+    padding: 5px;
+    list-style: none;
+    font-family: Roboto, sans-serif;
+  }
+  
+  .list li {
+    padding: 4px 0;
+    font-size: 18px;
+    color: #0E1116;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  
+  .list li:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  .list li:nth-child(3n+1) {
+      background-color: #88292F;
+  }
+
+  .list li:nth-child(3n+2) {
+    background-color: #5DB7DE;
+}
+
+.list li:nth-child(3n+3) {
+    background-color: #0D5D56;
+}
+
+.list li::before {
+    content: "\2192";
+    color: whitesmoke;    
+    margin-right: 15px;    
+}
+  
